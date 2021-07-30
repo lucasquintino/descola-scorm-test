@@ -1,0 +1,240 @@
+.survey{
+  .btn-close{
+    left: 30px;
+    @media(max-width:1025px){
+      top: 30px;
+    }
+    @media(max-width:1060px){
+      top: 0px;
+    }
+  }
+    &-img{
+      @media(max-width:1000px){
+        display: none;
+      }
+    }
+    &__home{
+        h2{
+            font-size: 1.75rem;
+        }
+        background: $black;
+        color: $grey-light;
+    }
+    &__watch{
+      padding: 5px 0;
+      color: $grey-light;
+      height: inherit;
+      align-self: center;
+      overflow: auto;
+      
+      h2{
+          font-size: 1.75rem;
+      }
+      .container {
+        margin-top: auto;
+        margin-bottom: auto;
+ 
+      }
+
+      @media(max-width:1025px){
+        h2{
+          font-size: 1rem;
+        }
+        h3, p{
+          font-size: 0.75rem !important;
+        }
+
+      }
+      // Modal
+      @media(max-width:992px) {
+          background-color: rgba(0, 0, 0, 0.5); 
+          background-color: rgba(68, 68, 68, 0.7);
+          padding: 20px 20px 0;
+          height: 100%; 
+          position: fixed;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          z-index: 1001;
+
+          .container {
+            margin: auto;
+            background-color: black;
+            padding: 15px;
+            
+            overflow: auto;
+            .btn-close {
+              left: 0;
+            }
+          }
+      }
+      // Modal END
+      @media(max-width:1060px){
+        h2{
+          font-size: 1rem;
+        }
+        h3, p{
+          font-size: 0.75rem !important;
+        }
+      }
+      
+      
+      
+    }
+    &__content{
+        margin: 0 auto;
+        text-align: center;
+        &--questions{
+            margin: 0 auto;
+            justify-items: center;
+            p{
+                max-width: 80%;
+                margin: 0 auto;
+            }
+            &-item{ 
+                p:first-of-type{
+                    font-weight: bold;
+                };
+                margin-bottom: 1.5rem;
+            }
+            textarea{
+                background: $black2;
+                padding: 5px 10px;
+                width: 80%;
+                margin: 0 auto; 
+                resize: none;
+                color: $grey2;
+            }
+            #question-01{
+                text-align: left;
+            }
+            .score{
+                display: inline-block;
+                margin-top: 15px;
+                &:first-of-type{
+                    .score-unselected{
+                        border-left: 2px solid $grey-light;
+                        &:hover{
+                            background-color: $primary;
+                            border-color: $primary_a;
+                        }
+                    }
+                }
+                &-unselected{
+                    padding: 5px 10px;
+                    border: 2px solid $grey-light;
+                    border-left: none;
+                    &:hover{
+                        background-color: $primary;
+                        border-color: $primary_a;
+                    }
+                }
+                &-selected{
+                    padding: 5px 10px;
+                    border: 2px solid $primary_a;
+                    border-left: none;
+                    background: $primary;
+                }
+            }
+            .checkbox-tag {
+                font-size: $p;
+                input[type='checkbox'], input[type='radio'] {
+                  & + label {
+                    text-align: center;
+                    padding: 4px 4px;
+                    color: $grey-light;
+                    border-width: 3px;
+                    border-color: $grey-light;
+                    background-color: transparent;
+                    &:before {
+                      display: none;
+                    }
+                    &:hover {
+                      color: $grey-light;
+                      background-color: $primary;
+                      border-color: $primary_a;
+                    }
+                    @media (hover: none) and (pointer: coarse) {
+                      &:hover {
+                        color: $grey-light;
+                        background-color: $primary;
+                        border-color: $primary_a;
+                      }
+                    }
+                  }
+                  &:checked + label{
+                    color: #fff;
+                    background-color: $primary;
+                    border-color: $primary_a;
+                    &:hover {
+                      //color: $primary;
+                      background-color: rgba($color: $primary, $alpha: 0.85);
+                    }
+                    @media (hover: none) and (pointer: coarse) {
+                      &:hover{
+                        color: #fff;
+                        background-color: $primary;
+                      }
+                    }
+                    &:disabled + label,
+                    &:disabled + label:hover {
+                      color: $grey-dark;
+                      background: $disabled;
+                      border-color: $disabled;
+                    }
+                  }
+                  &:disabled + label,
+                  &:disabled + label:hover {
+                    color: $grey-dark;
+                    background: #fff;
+                    border-color: $grey-dark;
+                  }
+                  &:focus-visible + label {
+                    box-shadow: 0 0 0 0.1rem $primary_a;
+                  }
+                }
+              }
+        } 
+        &__form {
+          margin: 0 auto 16px;
+          max-width: 360px;
+          label {
+            display: block;
+            text-align: left;
+          }
+          select{
+            width: 100%;
+            margin-bottom: 16px;
+          }
+        }
+    }
+}
+
+.text-bold{
+    font-weight: bold !important;
+}
+
+.star-rating{
+    &-unselected{
+        display: inline-block;
+        background-image: url(../assets/images/icon-star.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 38px;
+        height: 38px;
+        margin-right: 0.5rem;
+        &:hover, .fill{
+            background-image: url(../assets/images/icon-star-f.svg);
+        }
+    }
+    &-selected{
+        display: inline-block;
+        background-image: url(../assets/images/icon-star-f.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 38px;
+        height: 38px;
+        margin-right: 0.5rem;
+    }
+}

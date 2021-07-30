@@ -1,0 +1,132 @@
+@import 'colors';
+@import url('https://use.typekit.net/swg4rub.css');
+//fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap');
+
+//colors
+$primary: #fc4303;
+$secondary: #9300ca;
+$tertiary: #009ad1;
+$black: #222222;
+$black2: #333333;
+$black3: #444444;
+//$default: #FC4303;
+//$alternative: ;
+$success: #0bd86c;
+$failure: #e41e13;
+$info: #ffc200;
+$disabled: #dedfe5;
+$grey-light: #f6f7fa;
+$grey: #d8d8d8;
+$grey2: #e9e9ed;
+$grey3: #c1c0c0;
+$grey-dark: #8c9199;
+$grey-dark2: #888888;
+$grey-dark3: #707070;
+$grey-dark4: #555555;
+$grey-blue: #fafbfe; //banner
+$black-blue: #111E24;
+
+$primary_hover: rgb(226, 57, 0);
+$secondary_hover: rgb(127, 0, 173);
+$tertiary_hover: rgb(0, 132, 180);
+$black_hover: #000;
+//$black2_hover:#222222;
+$success_hover: rgb(10, 196, 96);
+//$failure_hover: rgb(158, 7, 7);
+$info_hover: rgb(224, 172, 1);
+
+$primary_a: rgba(252, 67, 3, 0.5);
+$secondary_a: rgba(148, 0, 202, 0.411);
+$tertiary_a: rgba(0, 153, 209, 0.384);
+$black_a: #2222228f;
+$success_a: rgba(11, 216, 107, 0.404);
+//$failure: #B81111;
+$info_a: rgba(255, 196, 0, 0.452);
+
+/* font families */
+$title-font: 'Montserrat';
+$paragraph-font: 'Roboto Slab';
+//end
+
+//title sizes ↓
+$hero-h1: 40px;
+$h1: 30px;
+$h2: 20px;
+$all-caps: uppercase;
+$h3: 16px;
+$h4: 12px;
+//end title sizes ↑
+
+//paragraph body sizes ↓
+$p-xxs: 10px; //paragraph extra extra small
+$p-xs: 11px; //paragraph extra small
+$p-sm: 12px; //paragraph small
+$p: 14px; //paragraph normal
+$p-md: 16px;
+$p-lg: 20px; //paragraph large
+$quote: 20px; //blockquote
+//paragraph body sizes↑
+
+@mixin paragraph-font() {
+  font-family: $paragraph-font;
+  font-weight: 300;
+}
+
+// @mixin font-face($name, $file) {
+//   @font-face {
+//     font-family: "#{$name}";
+//     src: url("../fonts/#{$file}.eot");
+//     src: url("../fonts/#{$file}.eot?#iefix") format("embedded-opentype"),
+//       url("../fonts/#{$file}.woff") format("woff"),
+//       url("../fonts/#{$file}.ttf") format("truetype");
+//       url("../fonts/#{$file}.svg?#webfont") format("svg");
+//   }
+// }
+// @include font-face("Gordita-Regular", "Buypass-Gordita-Regular");
+// @include font-face("Gordita-Medium", "Buypass-Gordita-Medium");
+
+// Light 400
+// Roman 500
+// Medium 600
+// Bold 700
+// Black 900
+
+html,
+body {
+  @include paragraph-font;
+  font-size: 16px;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: greyscale;
+  text-rendering: optimizeLegibility;
+  font-family: $paragraph-font;
+  letter-spacing: 0.24px;
+}
+
+p {
+  @include paragraph-font;
+  font-size: $p;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: $title-font;
+}
+
+.primary {
+  color: $primary;
+}
+.secondary {
+  color: $secondary;
+}
+.tertiary {
+  color: $tertiary;
+}

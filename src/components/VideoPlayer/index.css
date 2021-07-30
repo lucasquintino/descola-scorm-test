@@ -1,0 +1,292 @@
+.video-js {
+  width: 100%;
+  height: 100%;
+}
+
+.vjs-resolution-button .vjs-resolution-button-label {
+  color: transparent;
+  pointer-events: none;
+}
+
+.vjs-playback-rate .vjs-playback-rate-value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* .vjs-play-progress,
+.vjs-play-progress:before {
+  background-color: #fc4303 !important;
+} */
+
+.vjs-theme-fantasy .vjs-button>.vjs-icon-placeholder:hover:before,
+.vjs-playback-rate:hover .vjs-playback-rate-value {
+  /* color: #FC774B !important; */
+  transition: all 0.2s;
+}
+
+
+.vjs-loading-spinner {
+  border-color: #fc4303 !important;
+}
+
+.vjs-play-control:hover .vjs-icon-placeholder:before {
+  color: #fff !important;
+  color: #fc4303 !important;
+  transition: all 0.3s;
+}
+
+.vjs-volume-control:hover .vjs-slider-horizontal .vjs-volume-level {
+  color: #fc4303 !important;
+  background: #FC774B !important;
+  transition: all 0.2s;
+}
+
+.vjs-menu li.vjs-selected:focus {
+  background: #fff !important;
+  color: #111 !important;
+  transition: all 0.2s;
+}
+
+.vjs-menu .vjs-menu-content>*:hover {
+  background: #FC774B !important;
+  color: #fff !important;
+  transition: all 0.2s;
+}
+
+.vjs-menu li.vjs-selected {
+  color: #111 !important;
+
+}
+
+.vjs-play-control .vjs-icon-placeholder:before {
+  transition: all 0.3s;
+}
+
+
+.video-js.vjs-fluid {
+  height: 100% !important;
+}
+
+.vjs-menu-button-popup .vjs-menu .vjs-menu-content {
+  /* width: 15em !important; */
+  margin-left: -2.5em !important;
+}
+
+.vjs-resolution-button .vjs-menu .vjs-menu-content {
+  width: 17em !important;
+  margin-left: -6.5em !important;
+}
+
+.vjs-playback-rate .vjs-menu {
+  width: 6em !important;
+  margin-left: -0.75em !important;
+}
+
+.vjs-resolution-button .vjs-menu {
+  width: 10em !important;
+  margin-left: -0.75em !important;
+}
+
+.vjs-menu-button-popup .vjs-menu .vjs-menu-content {
+  bottom: 3.8em !important;
+  max-height: 50em !important;
+}
+
+.vjs-menu-item {
+  padding: 1rem 0px !important;
+}
+
+.vjs-menu-item-text {
+  font-size: 15px !important;
+}
+
+.vjs-control:hover {
+  color: #ddd;
+  transition: all 0.15s;
+}
+
+@media (max-width: 540px) {
+  .video-js .vjs-picture-in-picture-control {
+    display: none;
+  }
+
+  .video-js .vjs-time-control {
+    display: none;
+  }
+
+  .vjs-menu-item {
+    padding: 0.3rem 0px !important;
+  }
+
+  .vjs-menu-item-text {
+    font-size: 1.2em !important;
+  }
+
+  .vjs-resolution-button .vjs-menu .vjs-menu-content {
+    width: 15em !important;
+    margin-left: -7.5em !important;
+  }
+
+  .video-js .vjs-control {
+    width: 2em !important
+  }
+
+  .video-js .vjs-time-control {
+    padding: 0 !important
+  }
+
+  .video-js .vjs-volume-panel.vjs-volume-panel-horizontal,
+  .video-js .vjs-volume-panel.vjs-volume-panel-horizontal.vjs-slider-active,
+  .video-js .vjs-volume-panel.vjs-volume-panel-horizontal:active {
+    width: 5em !important;
+  }
+
+  .video-js .vjs-volume-panel .vjs-mute-control~.vjs-volume-control.vjs-volume-horizontal,
+  .video-js .vjs-volume-panel .vjs-volume-control.vjs-volume-horizontal {
+    width: 3em !important;
+  }
+
+  .vjs-has-started .vjs-control-bar {
+    justify-content: space-around;
+  }
+
+  .video-js .vjs-progress-control {
+    flex: none !important;
+    min-width: 10em !important
+  }
+}
+
+/* control bar */
+.video-js .vjs-control-bar {
+  background: none !important;
+}
+
+.video-js {
+  font-size: 14px !important;
+}
+
+
+/* volume control */
+.video-js .vjs-volume-panel.vjs-volume-panel-horizontal,
+.video-js .vjs-volume-panel.vjs-volume-panel-horizontal.vjs-slider-active,
+.video-js .vjs-volume-panel.vjs-volume-panel-horizontal:active {
+  width: 10em;
+}
+
+.video-js .vjs-volume-panel .vjs-mute-control~.vjs-volume-control,
+.video-js .vjs-volume-panel .vjs-volume-control {
+  visibility: visible;
+  opacity: 1;
+  position: relative;
+}
+
+.video-js .vjs-volume-panel .vjs-mute-control~.vjs-volume-control.vjs-volume-horizontal,
+.video-js .vjs-volume-panel .vjs-volume-control.vjs-volume-horizontal,
+.video-js .vjs-volume-panel:active .vjs-volume-control.vjs-volume-horizontal,
+.video-js .vjs-volume-panel:focus .vjs-volume-control.vjs-volume-horizontal {
+  width: 5em;
+  height: 3em;
+  margin-right: 0;
+}
+
+.video-js .vjs-big-play-button {
+  border: 6px solid #fff !important;
+  border-radius: 50% !important;
+  width: 1.63332em !important;
+  height: 1.63332em !important;
+  background: rgba(43, 51, 63, .2) !important;
+  left: 50% !important;
+  top: 50% !important;
+  margin-left: -0.816666em !important;
+  margin-top: -0.816666em !important;
+  font-size: 4em !important;
+}
+
+.video-js .vjs-big-play-button:hover {
+  background-color: #FC4305 !important;
+  color: #fff;
+  border-color: #FC4305 !important;
+}
+
+.video-js .vjs-progress-control.vjs-control,
+.video-js .vjs-remaining-time.vjs-time-control.vjs-control {
+  order: -1 !important;
+}
+
+.video-js .vjs-play-control.vjs-control.vjs-button.vjs-paused,
+.video-js .vjs-play-control.vjs-control.vjs-button.vjs-playing {
+  order: -2 !important;
+}
+
+.video-js .vjs-menu-content {
+  overflow: visible !important;
+  font-size: 0.6em !important;
+
+}
+
+.video-js .vjs-menu-item:hover {
+  background-color: #fff !important;
+  color: rgba(43, 51, 63, 1) !important;
+}
+
+.video-js .vjs-menu-item.vjs-selected {
+  background-color: #FC4305 !important;
+  color: #fff !important;
+}
+
+
+.video-js .vjs-menu-content::after {
+  border: 4px solid transparent;
+  border-top: 4px solid rgba(43, 51, 63, .7);
+  border-width: 8px;
+  content: "";
+  height: 0;
+  position: absolute;
+  left: 60%;
+  top: 100%;
+  width: 0;
+}
+
+.vjs-playback-rate-value {
+  font-size: 1.1em !important;
+}
+
+
+.vsc-controller {
+  position: absolute;
+}
+
+.video-js .vjs-subs-caps-button button>.vjs-icon-placeholder:before {
+  content: "\f10d" !important;
+  font-size: 2em !important;
+  line-height: 1.5 !important;
+}
+
+.video-js .vjs-fullscreen-control .vjs-icon-placeholder:before {
+  content: " " !important;
+}
+
+.vjs-icon-cog {
+  font-size: 24px !important;
+}
+
+.vjs-resolution-button .vjs-icon-placeholder:before {
+  content: '\f110' !important;
+
+}
+
+[title="Tela Cheia"] .vjs-icon-placeholder:before {
+  background: url('../../assets/images/maximize-2.svg') !important;
+  background-size: 20px 20px !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+[title="Tela Normal"] .vjs-icon-placeholder:before {
+  background: url('../../assets/images/minimize-2.svg') center center no-repeat !important;
+  background-size: 20px 20px !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}

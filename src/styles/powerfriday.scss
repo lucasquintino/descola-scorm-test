@@ -1,0 +1,523 @@
+$pf-blue: #2C43F3;
+$pf-blue-hover: #1e2fb3;
+$pf-pink: #FA6153;
+$pf-p-md-lg: 18px;
+
+.pf-friday {
+  h1 {
+    font-weight: bold;
+  };
+  #pf-banner-toggle:active{
+    animation: rotate 0.5s forwards;
+  }
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(-180deg);
+  }
+}
+
+@keyframes animatetop {
+  from {top: 500px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
+
+.pf-topbar{
+  a, p {
+    strong {
+      font-weight: bold;
+    }
+    color: #fff !important;
+    margin: 0px;
+    font-size: 18px;
+    font-family: $title-font !important;
+  };
+  a{
+    padding: 10px 0;
+  };
+  text-align: center;
+  display: flex;
+  z-index: 9995;
+  position: sticky;
+  top: 0px;
+  background: $pf-blue;
+  overflow-y: hidden;;
+}
+
+.pf-topbar-hide{
+  animation: hideTopbar .5s;
+}
+
+.pf-topbar-open{
+  animation: openTopbar .5s;
+}
+
+@keyframes openTopbar {
+  from {
+    height: 0;
+  }
+  to {
+    height: 47px;
+  }
+}
+
+@keyframes hideTopbar {
+  from {
+    height: 47px;
+  }
+  to {
+    height: 0;
+  }
+}
+
+.pf-btn{
+  font-family: $title-font !important;
+  color: #fff !important;
+  text-align: center !important;
+  font-size: 18px;
+  &-blue{
+    background: $pf-blue;
+    &:hover,
+    &:active,
+    &:not(:disabled):not(.disabled):active {
+      color: #fff;
+      background-color: $pf-blue-hover;
+      border-color: $pf-blue-hover;
+    };
+    &:focus,
+    &:active:focus,
+    &:not(:disabled):not(.disabled):active:focus {
+      color: #fff;
+      background-color: $pf-blue-hover;
+      border-color: $pf-blue-hover;
+      box-shadow: 0 0 0 0.2rem $pf-blue-hover;
+    };
+  };
+}
+
+.pf-btn-sm {
+  margin-top: 0px !important;
+  color: #fff;
+  pointer-events: none !important;
+}
+
+.pf-banner{
+  height: auto;
+  margin-top: -60px;
+  background: $pf-pink;
+  #pf-plans {
+    animation: animatetop 0.4s;
+  };
+  #pf-banner-toggle{
+    cursor: pointer;
+    margin-top: 10px;
+  };
+  &-courses {
+    text-align: center;
+    color: #fff;
+    .pf-cards{
+      margin-bottom: 0px;
+    };
+  };
+  &-text {
+    p{
+      font-family: $title-font;
+      font-size: $p-md;
+    };
+    h1, p {
+      font-weight: 400;
+      margin-bottom: 5px;
+    };
+  };
+}
+
+.pf-img {
+  height: 500px;
+  background-size: contain;
+  &-mobile {
+    display: none;
+  };
+}
+
+@media (max-width: 1025px){
+  .pf-img {
+    display: none;
+    &-mobile{
+      display: flex;
+      padding-top: 10px;
+      height: 250px;
+      background-size: contain;
+    }
+  };
+}
+
+/*main card @ banner*/
+.pf-main{
+  &-card{
+    background: $pf-blue;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+  };
+  &-card > span {
+    font-family: $title-font;
+    font-size: $pf-p-md-lg;
+  };
+  &-card h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  };
+  &-sub {
+    font-family: $title-font;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 10px;
+    padding: 0px !important;
+  };
+  &-price {
+    font-family: $title-font;
+    font-size: $hero-h1;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 20px !important;
+    & > span {
+      font-size: 24px;
+      font-weight: 400;
+    };
+  };
+}
+
+/* break between sections */
+.pf-break{
+  background: $pf-blue;
+  color: #fff;
+  text-align: center;
+  padding: 2em 0 2em 0;
+  h1, p {
+    margin: 0px;
+    padding: 0px;
+  };
+  h1{
+    font-size: $h1;
+    margin-bottom: 0.125em;
+  };
+  p {
+    font-size: $p-md;
+    font-family: $title-font;
+  };
+}
+
+/* plans: choosing options */
+.pf-plans{
+  background: $pf-pink;
+  h1 {
+    color: #fff;
+    text-align: center;
+  };
+}
+
+.pf-cards {
+  margin-bottom: 40px;
+  font-family: $title-font;
+  text-align: center;
+  ul {
+    display: inline-block;
+    list-style: none;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 0 20px 0 20px;
+    li {
+      font-size: $p-sm;
+      font-family: $paragraph-font;
+    };
+  };
+}
+
+.pf-card {
+  background: $grey-light;
+  border-radius: 10px;
+  color: $black;
+  ul {
+    display: inline-block;
+  }
+  &:hover{
+    background: $pf-blue;
+    color: #fff;
+    border-radius: 10px;
+    border: 3px solid #fff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    .btn, .pf-btn, .pf-btn-blue {
+      background: $primary !important;
+      &:hover{
+        background: $primary_hover !important;
+        border-color: $primary_hover !important;
+      }
+    };
+    .pf-card-link {
+      color: #fff;
+    }
+    .pf-check-icon {
+      width: 10px;
+      height: 10px;
+      display: inline-block;
+      background: url('../assets/images/pf-check-w.svg') center center no-repeat;
+    };
+  };
+  &-title{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+  };
+  &-price {
+    text-align: center;
+    font-family: $title-font;
+    margin-top: -10px;
+  };
+  &-price > p {
+    text-align: left;
+    display: inline-block;
+    font-family: $title-font;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1;
+  };
+  &-price > p > span {
+    font-size: $p;
+    font-weight: 400;
+    margin-bottom: -10px;
+  };
+  &-link {
+    margin: 0 auto;
+    font-family: $title-font;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+  };
+}
+
+.pf-greycards{
+  margin-bottom: 40px;
+}
+.pf-courses {
+  background: $grey-light;
+  height: auto;
+  text-align: center;
+  padding: 40px 0 40px 0;
+  .carousel.slide{
+    padding-bottom: 0px;
+  }
+  .btn {
+    margin-top: 30px;
+  }
+  .carousel-indicators li{
+    display: none !important;
+  };
+  .pf-arrow{
+    &-left{
+      border: none;
+      background: none;
+      z-index: 9999;
+      position: absolute;
+      align-self: center;
+      justify-self: left;
+      //margin-bottom: 25.55px;
+      left: 2%;
+      height: 20px;
+    };
+    &-right{
+      border: none;
+      background: none;
+      z-index: 9999;
+      position: absolute;
+      align-self: center;
+      justify-self: right;
+      //margin-bottom: 25.55px;
+      right: 2%;
+      height: 20px;
+    };
+  }
+}
+#pf-carousel-btn {
+  &-left{
+    position: absolute;
+  };
+  &-right{
+    position: absolute;
+    right: 100%;
+  };
+}
+.pf-rules{
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  &-lastp{
+    font-weight: bold;
+  };
+  h1, p, h2 {
+    text-align: left;
+  };
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width:1001px){
+  .pf-main{
+    &-card > span {
+      font-family: $title-font;
+      font-size: 14px;
+    };
+    &-card h1 {
+      font-size: 18px;
+    };
+    &-sub {
+      font-size: 12px;
+    };
+    &-price {
+      font-size: $h1;
+      & > span {
+        font-size: 14px;
+      };
+    };
+  }
+}
+
+@media (max-width:1025px){
+  .pf-img{
+    max-height: 70%;
+    margin-bottom: 20px;
+  };
+  .pf-main-card{
+    margin: 10px 0 20px 0;
+  }
+  .pf-cards {
+    margin-bottom: 20px;
+  }
+  .pf-card {
+    &:hover{
+      .pf-check-icon{
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        background: url('../assets/images/pf-check.svg') center center no-repeat;
+      }
+    };
+    ul {
+      display: none;
+      color: $black;
+    };
+    &-modal {
+      display: none;
+      position: fixed;
+      z-index: 9999;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background: rgba(0,0,0,0.2);
+      &-content{
+        animation: animatetop 0.4s;
+        background: #fff;
+        margin: 50% auto;
+        padding: 20px;
+        width: 80%;
+      };
+      &-close{
+        height: 15px;
+        width: 15px;
+        background: url('../assets/images/x-icon-o.svg') center center no-repeat;
+        float: right;
+        &:hover{
+          cursor: pointer !important;
+        };
+      };
+  }
+  &-pretitle{
+    font-size: 14px;
+  }
+  &-title{
+    font-size: 18px;
+  };
+  &-price {
+    margin-top: 1px;
+    &> p {
+      font-size: 28px;
+    };
+    &> p > span {
+      font-size: $p;
+    };
+  };
+  &-offer {
+    font-size: 12px;
+  };
+  .pf-btn {
+    font-size: 16px;
+    padding: 5px 10px;
+  };
+  .btn-sm{
+    font-size: 10px;
+    padding: 2px 3px;
+  }
+}
+.pf-card-modal.active{
+  display: block;
+  ul{
+    padding: 20px;
+    display: block;
+  }
+}
+  .pf-greycards{
+    margin-bottom: -10px;
+  }
+  .pf-break{
+    h1{
+      font-size: 24px;
+    }
+    p{
+      font-size: 14px;
+    }
+  }
+}
+
+//icons
+.pf-check-icon-white {
+  width: 10px;
+  height: 10px;
+  margin-right: 2px;
+  display: inline-block;
+  background: url('../assets/images/pf-check-w.svg') center center no-repeat;
+}
+.pf-check-icon {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: url('../assets/images/pf-check.svg') center center no-repeat;
+}
+.pf-chevron-up-icon {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background: url('../assets/images/pf-chev-up.svg') center center no-repeat;
+}
+.pf-chevron-down-icon {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background: url('../assets/images/pf-chev-down.svg') center center no-repeat;
+}
+.pf-arrow-left-icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url('../assets/images/pf-arr-left.svg') center center no-repeat;
+}
+.pf-arrow-right-icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url('../assets/images/pf-arr-right.svg') center center no-repeat;
+}

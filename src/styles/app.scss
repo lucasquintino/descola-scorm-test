@@ -1,0 +1,57 @@
+$num_columns: 12;
+$gutter: 20px;
+$cdn: 'https://cdn.descola.org/app/assets/images/';
+
+$grid-breakpoints: (
+  xxs: 0px,
+  xs: 320px,
+  // Extra small
+    sm: 576px,
+  // Small
+    md: 1025px,
+  // Medium
+    lg: 992px,
+  // Large
+    xl: 1200px // Extra large
+) !default;
+
+$container-max-widths: (
+  sm: 540px,
+  // Small
+    md: 720px,
+  // Medium
+    lg: 960px,
+  // Large
+    xl: 1180px // Extra large (ORIGINAL = 1140)
+);
+
+//import bootstrap
+
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+@import 'node_modules/bootstrap/scss/mixins';
+@import 'node_modules/bootstrap/scss/root';
+@import 'node_modules/bootstrap/scss/print';
+@import 'node_modules/bootstrap/scss/reboot';
+@import 'node_modules/bootstrap/scss/type';
+//@import "node_modules/bootstrap/scss/images";
+@import 'node_modules/bootstrap/scss/code';
+@import 'node_modules/bootstrap/scss/grid';
+@import 'node_modules/bootstrap/scss/tables';
+@import 'node_modules/bootstrap/scss/forms';
+@import 'node_modules/bootstrap/scss/buttons';
+@import 'node_modules/bootstrap/scss/utilities';
+
+@import 'styleguides';
+@import 'header';
+@import 'footer';
+@import 'cards';
+@import 'popups';
+@import 'buttons';
+@import 'forms';
+@import 'banner';
+@import 'article';
+@import 'toastify';
+@import 'powerfriday';
+@import 'survey';
+// @import 'typography';

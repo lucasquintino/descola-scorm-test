@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="Grupo_3" data-name="Grupo 3" transform="translate(-1705)">
+    <g id="Grupo_2" data-name="Grupo 2" transform="translate(22 -2)">
+      <line id="Linha_1" data-name="Linha 1" x2="27" transform="translate(1687.5 10.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="5"/>
+      <line id="Linha_2" data-name="Linha 2" x2="27" transform="translate(1687.5 20.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="5"/>
+      <line id="Linha_3" data-name="Linha 3" x2="27" transform="translate(1687.5 30.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="5"/>
+    </g>
+    <g id="Retângulo_1" data-name="Retângulo 1" transform="translate(1705)" fill="rgba(255,255,255,0)" stroke="rgba(255,255,255,0)" stroke-width="1">
+      <rect width="36" height="36" stroke="none"/>
+      <rect x="0.5" y="0.5" width="35" height="35" fill="none"/>
+    </g>
+  </g>
+</svg>

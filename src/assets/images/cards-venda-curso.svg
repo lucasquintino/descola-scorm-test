@@ -1,0 +1,74 @@
+<svg id="cards_venda_curso" data-name="cards/venda/curso" xmlns="http://www.w3.org/2000/svg" width="879" height="1497" viewBox="0 0 879 1497">
+  <rect id="Rectangle" width="879" height="507.585" fill="#f6f7fa"/>
+  <g id="Rectangle-2" data-name="Rectangle" transform="translate(0 426.028)" fill="none" stroke="#f6f7fa" stroke-miterlimit="10" stroke-width="5">
+    <rect width="879" height="1070.972" stroke="none"/>
+    <rect x="2.5" y="2.5" width="874" height="1065.972" fill="none"/>
+  </g>
+  <g id="CURSO" transform="translate(4 459.295)">
+    <text id="Button" fill="#222" font-size="20" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="24.81" y="19">O Curso</tspan></text>
+  </g>
+  <g id="text_cardtitle_copy_16" data-name="text/cardtitle copy 16" transform="translate(162 459.295)">
+    <text id="Button-2" data-name="Button" fill="#fc4303" font-size="20" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="22.55" y="19">Conteúdo</tspan></text>
+    <rect id="Rectangle-3" data-name="Rectangle" width="144" height="2.786" transform="translate(0 45.504)" fill="#fc4303"/>
+  </g>
+  <g id="text_cardtitle_copy_17" data-name="text/cardtitle copy 17" transform="translate(336 459.295)">
+    <text id="Button-3" data-name="Button" fill="#222" font-size="20" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="30.16" y="19">Depoimentos</tspan></text>
+  </g>
+  <g id="Group_2" data-name="Group 2" transform="translate(34 550.219)">
+    <g id="MÓDULO_2" data-name="MÓDULO 2" transform="translate(4 197.744)">
+      <text id="MÓDULO_02" data-name="MÓDULO 02" transform="translate(0 0)" fill="#fc4303" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="15">MÓDULO 02</tspan></text>
+      <text id="_1._Introdução_a_aula" data-name="1. Introdução a aula" transform="translate(8.266 48.964)" fill="rgba(0,0,0,0.25)" font-size="14" font-family="RobotoSlab-Light, Roboto Slab" font-weight="300"><tspan x="0" y="15">1. Introdução a aula seis (4m 40s)</tspan></text>
+      <text id="_-" data-name="-" transform="translate(623.471 47.891)" fill="#222" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="75.04" y="15">-</tspan></text>
+      <text id="_2._Sete_ou_07_7m_12" data-name="2. Sete ou 07 (7m 12" transform="translate(8.266 75.657)" fill="rgba(0,0,0,0.25)" font-size="14" font-family="RobotoSlab-Light, Roboto Slab" font-weight="300"><tspan x="0" y="15">2. Sete ou 07 (7m 12s)</tspan></text>
+      <text id="_--2" data-name="-" transform="translate(623.471 74.584)" fill="#222" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="75.04" y="15">-</tspan></text>
+      <text id="_3._Oito_um_infinito" data-name="3. Oito, um infinito" transform="translate(8.266 102.35)" fill="rgba(0,0,0,0.25)" font-size="14" font-family="RobotoSlab-Light, Roboto Slab" font-weight="300"><tspan x="0" y="15">3. Oito, um infinito de pé (2m 37s)</tspan></text>
+      <text id="_--3" data-name="-" transform="translate(623.471 101.277)" fill="#222" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="75.04" y="15">-</tspan></text>
+      <text id="_4._9_é_um_6_à_meia_n" data-name="4. 9 é um 6 à meia n" transform="translate(8.266 129.044)" fill="rgba(0,0,0,0.25)" font-size="14" font-family="RobotoSlab-Light, Roboto Slab" font-weight="300"><tspan x="0" y="15">4. 9 é um 6 à meia noite (4m 44s)</tspan></text>
+      <text id="_--4" data-name="-" transform="translate(623.471 127.971)" fill="#222" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="75.04" y="15">-</tspan></text>
+      <text id="_5._Capítulo_DÉIX_5m" data-name="5. Capítulo DÉIX (5m" transform="translate(8.266 155.737)" fill="rgba(0,0,0,0.25)" font-size="14" font-family="RobotoSlab-Light, Roboto Slab" font-weight="300"><tspan x="0" y="15">5. Capítulo DÉIX (5m 27s)</tspan></text>
+      <text id="_--5" data-name="-" transform="translate(623.471 154.664)" fill="#222" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="75.04" y="15">-</tspan></text>
+    </g>
+    <g id="MÓDULO_2_Copy" data-name="MÓDULO 2 Copy" transform="translate(4 405.929)">
+      <text id="MÓDULO_03" data-name="MÓDULO 03" transform="translate(0 0)" fill="#fc4303" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="15">MÓDULO 03</tspan></text>
+      <text id="_--6" data-name="-" transform="translate(623.471 47.891)" fill="#222" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="75.04" y="15">-</tspan></text>
+      <text id="_--7" data-name="-" transform="translate(623.471 74.584)" fill="#222" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="75.04" y="15">-</tspan></text>
+      <text id="_--8" data-name="-" transform="translate(623.471 101.277)" fill="#222" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="75.04" y="15">-</tspan></text>
+      <text id="_--9" data-name="-" transform="translate(623.471 127.971)" fill="#222" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="75.04" y="15">-</tspan></text>
+      <text id="_--10" data-name="-" transform="translate(623.471 154.664)" fill="#222" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="75.04" y="15">-</tspan></text>
+    </g>
+    <g id="MÓDULO_2_Copy_2" data-name="MÓDULO 2 Copy 2" transform="translate(4 614.114)">
+      <text id="MÓDULO_04" data-name="MÓDULO 04" transform="translate(0 0)" fill="#fc4303" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="15">MÓDULO 04</tspan></text>
+      <text id="_--11" data-name="-" transform="translate(623.471 71.412)" fill="#222" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="75.04" y="15">-</tspan></text>
+      <text id="_--12" data-name="-" transform="translate(623.471 98.093)" fill="#222" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="75.04" y="15">-</tspan></text>
+      <text id="_--13" data-name="-" transform="translate(623.471 124.775)" fill="#222" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="75.04" y="15">-</tspan></text>
+      <text id="_--14" data-name="-" transform="translate(623.471 151.456)" fill="#222" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="75.04" y="15">-</tspan></text>
+      <text id="_--15" data-name="-" transform="translate(623.471 47.87)" fill="#222" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="75.04" y="15">-</tspan></text>
+    </g>
+    <g id="MÓDULO_2_Copy_3" data-name="MÓDULO 2 Copy 3" transform="translate(4 814.787)">
+      <text id="MÓDULO_05" data-name="MÓDULO 05" transform="translate(0 0)" fill="#fc4303" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="15">MÓDULO 05</tspan></text>
+      <text id="_1._Introdução_a_aula-2" data-name="1. Introdução a aula" transform="translate(8.266 48.618)" fill="rgba(0,0,0,0.25)" font-size="14" font-family="RobotoSlab-Light, Roboto Slab" font-weight="300"><tspan x="0" y="15">1. Introdução a aula seis (4m 40s)</tspan></text>
+      <text id="_--16" data-name="-" transform="translate(623.471 47.545)" fill="#222" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="75.04" y="15">-</tspan></text>
+    </g>
+    <g id="MÓDULO_1" data-name="MÓDULO 1" transform="translate(0 0)">
+      <text id="MÓDULO_01" data-name="MÓDULO 01" fill="#fc4303" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="15">MÓDULO 01</tspan></text>
+      <text id="_1._Primeira_aula_4m" data-name="1. Primeira aula (4m" transform="translate(12.397 37.859)" font-size="14" font-family="RobotoSlab-Light, Roboto Slab" font-weight="300"><tspan x="0" y="15">1. Primeira aula (4m 40s)</tspan></text>
+      <text id="Assista_agora" data-name="Assista agora" transform="translate(627.471 34.64)" fill="#fc4303" font-size="16" font-family="RobotoSlab-Bold, Roboto Slab" font-weight="700"><tspan x="26.852" y="17">Assista agora</tspan></text>
+      <text id="_2._Aula_dois_7m_12s" data-name="2. Aula dois (7m 12s" transform="translate(12.397 64.471)" font-size="14" font-family="RobotoSlab-Light, Roboto Slab" font-weight="300"><tspan x="0" y="15">2. Aula dois (7m 12s)</tspan></text>
+      <text id="Assista_agora-2" data-name="Assista agora" transform="translate(627.471 61.251)" fill="#fc4303" font-size="16" font-family="RobotoSlab-Bold, Roboto Slab" font-weight="700"><tspan x="26.852" y="17">Assista agora</tspan></text>
+      <text id="_3._Como_fazer_uma_au" data-name="3. Como fazer uma au" transform="translate(12.397 91.082)" font-size="14" font-family="RobotoSlab-Light, Roboto Slab" font-weight="300"><tspan x="0" y="15">3. Como fazer uma aula três (2m 37s)</tspan></text>
+      <text id="Assista_agora-3" data-name="Assista agora" transform="translate(627.471 87.863)" fill="#fc4303" font-size="16" font-family="RobotoSlab-Bold, Roboto Slab" font-weight="700"><tspan x="26.852" y="17">Assista agora</tspan></text>
+      <text id="_4._É_possível_fazer" data-name="4. É possível fazer" transform="translate(12.397 117.694)" fill="rgba(0,0,0,0.25)" font-size="14" font-family="RobotoSlab-Light, Roboto Slab" font-weight="300"><tspan x="0" y="15">4. É possível fazer a aula quatro? (4m 44s)</tspan></text>
+      <text id="_5._Aula_5:_A_respost" data-name="5. Aula 5: A respost" transform="translate(12.397 144.305)" fill="rgba(0,0,0,0.25)" font-size="14" font-family="RobotoSlab-Light, Roboto Slab" font-weight="300"><tspan x="0" y="15">5. Aula 5: A resposta ( 5m 27s)</tspan></text>
+    </g>
+  </g>
+  <text id="_1._Introdução_a_aula_Copy" data-name="1. Introdução a aula Copy" transform="translate(46 1005.512)" fill="rgba(0,0,0,0.25)" font-size="14" font-family="RobotoSlab-Light, Roboto Slab" font-weight="300"><tspan x="0" y="15">1. Introdução a aula seis (4m 40s)</tspan></text>
+  <text id="_2._Sete_ou_07_7m_12_Copy" data-name="2. Sete ou 07 (7m 12 Copy" transform="translate(46 1032.34)" fill="rgba(0,0,0,0.25)" font-size="14" font-family="RobotoSlab-Light, Roboto Slab" font-weight="300"><tspan x="0" y="15">2. Sete ou 07 (7m 12s)</tspan></text>
+  <text id="_3._Oito_um_infinito_Copy" data-name="3. Oito, um infinito Copy" transform="translate(46 1059.168)" fill="rgba(0,0,0,0.25)" font-size="14" font-family="RobotoSlab-Light, Roboto Slab" font-weight="300"><tspan x="0" y="15">3. Oito, um infinito de pé (2m 37s)</tspan></text>
+  <text id="_4._9_é_um_6_à_meia_n_copy" data-name="4. 9 é um 6 à meia n copy" transform="translate(46 1085.996)" fill="rgba(0,0,0,0.25)" font-size="14" font-family="RobotoSlab-Light, Roboto Slab" font-weight="300"><tspan x="0" y="15">4. 9 é um 6 à meia noite (4m 44s)</tspan></text>
+  <text id="_5._Capítulo_DÉIX_5m_Copy" data-name="5. Capítulo DÉIX (5m Copy" transform="translate(46 1111.75)" fill="rgba(0,0,0,0.25)" font-size="14" font-family="RobotoSlab-Light, Roboto Slab" font-weight="300"><tspan x="0" y="15">5. Capítulo DÉIX (5m 27s)</tspan></text>
+  <text id="_1._Introdução_a_aula-3" data-name="1. Introdução a aula" transform="translate(46 1212.624)" fill="rgba(0,0,0,0.25)" font-size="14" font-family="RobotoSlab-Light, Roboto Slab" font-weight="300"><tspan x="0" y="15">1. Introdução a aula seis (4m 40s)</tspan></text>
+  <text id="_2._Sete_ou_07_7m_12_Copy_2" data-name="2. Sete ou 07 (7m 12 Copy 2" transform="translate(46 1239.452)" fill="rgba(0,0,0,0.25)" font-size="14" font-family="RobotoSlab-Light, Roboto Slab" font-weight="300"><tspan x="0" y="15">2. Sete ou 07 (7m 12s)</tspan></text>
+  <text id="_3._Oito_um_infinito_Copy_2" data-name="3. Oito, um infinito Copy 2" transform="translate(46 1266.28)" fill="rgba(0,0,0,0.25)" font-size="14" font-family="RobotoSlab-Light, Roboto Slab" font-weight="300"><tspan x="0" y="15">3. Oito, um infinito de pé (2m 37s)</tspan></text>
+  <text id="_4._9_é_um_6_à_meia_n_copy_2" data-name="4. 9 é um 6 à meia n copy 2" transform="translate(46 1293.108)" fill="rgba(0,0,0,0.25)" font-size="14" font-family="RobotoSlab-Light, Roboto Slab" font-weight="300"><tspan x="0" y="15">4. 9 é um 6 à meia noite (4m 44s)</tspan></text>
+  <text id="_5._Capítulo_DÉIX_5m_Copy_2" data-name="5. Capítulo DÉIX (5m Copy 2" transform="translate(46 1318.862)" fill="rgba(0,0,0,0.25)" font-size="14" font-family="RobotoSlab-Light, Roboto Slab" font-weight="300"><tspan x="0" y="15">5. Capítulo DÉIX (5m 27s)</tspan></text>
+</svg>

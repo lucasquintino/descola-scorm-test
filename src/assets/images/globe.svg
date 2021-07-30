@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="globe" transform="translate(1 0.375)">
+    <circle id="Oval" cx="7" cy="7" r="7" stroke-width="2" transform="translate(0 0.625)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/>
+    <path id="Path" d="M0,.5H14" transform="translate(0 7.625)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path-2" data-name="Path" d="M2.5,0A11.436,11.436,0,0,1,5,7a11.436,11.436,0,0,1-2.5,7A11.436,11.436,0,0,1,0,7,11.436,11.436,0,0,1,2.5,0Z" transform="translate(5 0.625)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

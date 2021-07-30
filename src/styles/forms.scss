@@ -1,0 +1,395 @@
+a,
+input[type='text'],
+input[type='email'],
+input[type='number'],
+input[type='tel'],
+input[type='password'],
+textarea,
+label,
+select {
+  &:focus-visible,
+  &:active:focus-visible,
+  &:not(:disabled):not(.disabled):active:focus-visible {
+    outline-color: $primary;
+  }
+  &.invalid {
+    box-shadow: 0px 5px 3px -2px $failure;
+  }
+  &:disabled, .disabled {
+    border-color: $disabled;
+    background-color: $disabled;
+  }
+}
+label {
+  font-size: $p-sm;
+  font-family: $title-font;
+  font-weight: 500;
+}
+.feedback-invalid {
+  color: $failure;
+  font-size: $p-xs;
+  font-weight: 400;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  display: block;
+}
+.feedback-valid {
+  color: $success;
+  font-size: $p-sm;
+  font-weight: 400;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  display: block;
+}
+input[type='text'],
+input[type='email'],
+input[type='number'],
+input[type='tel'],
+input[type='password'],
+textarea {
+  border-radius: 0;
+  background-color: transparent;
+  padding: 5px 0 8px 0;
+  border: none;
+  border-bottom: 1px solid $primary;
+  &.input-box {
+    padding-left: 20px;
+    border: 1px solid $primary;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+textarea {
+  padding-right: 20px;
+  height: calc(100% - 15px);
+  display: block;
+}
+.input-box {
+  input[type='text'],
+  input[type='email'],
+  input[type='number'],
+  input[type='tel'],
+  input[type='password'],
+  textarea,
+  select {
+    padding-left: 20px;
+    border: 1px solid $primary;
+    margin-bottom: 15px;
+    width: 100%;
+    background-color: transparent;
+    &:disabled, .disabled {
+      border-color: $disabled;
+      background-color: $disabled;
+    }
+  }
+  select {
+    color: inherit;
+    padding: 5px 0 8px 2px;
+  }
+  textarea {
+    padding-right: 20px;
+    height: auto;
+  }
+}
+select {
+  color: $grey-dark;
+  padding: 5px;
+  border: 1px solid $disabled;
+  border-radius: 0;
+  background-color: $grey-light;
+  // background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAJCAYAAAA/33wPAAAAvklEQVQoFY2QMQqEMBBFv7ERa/EMXkGw11K8QbDXzuN4BHv7QO6ifUgj7v4UAdlVM8Uwf+b9YZJISnlqrfEUZVlinucnBGKaJgghbiHOyLyFKIoCbdvecpyReYvo/Ma2bajrGtbaC58kCdZ1RZ7nl/4/4d5EsO/7nzl7IUtodBexMMagaRrs+06JLMvcNWmaOv2W/C/TMAyD58dxROgSmvxFFMdxoOs6lliWBXEcuzokXRbRoJRyvqqqQvye+QDMDz1D6yuj9wAAAABJRU5ErkJggg==);
+  // background-position : right center;
+  // background-repeat: no-repeat;
+  option {
+    color: $grey-dark2;
+  }
+}
+
+.input-icon {
+  position: relative;
+  input {
+    padding-left: 34px;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    display: block;
+    left: 8px;
+    top: 6px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  &.icon-user {
+    &:after {
+      width: 16px;
+      height: 19px;
+      background-image: url($cdn + 'user.svg');
+    }
+  }
+  &.icon-lock {
+    background-image: none;
+    &:after {
+      width: 18px;
+      height: 21px;
+      background-image: url($cdn + 'lock.svg');
+    }
+  }
+  &.icon-mail {
+    &:after {
+      width: 17px;
+      height: 22px;
+      background-image: url($cdn + 'mail.svg');
+    }
+  }
+}
+
+.search__bar {
+  border: none;
+  position: relative;
+  display: flex;
+  input[type='text'] {
+    color: $grey-dark;
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom: 1px solid $grey-dark;
+  }
+  // &:after {
+  //   content: '';
+  //   margin: 7px;
+  //   background-image: url($cdn + 'lupa.svg');
+  //   background-repeat: no-repeat;
+  //   background-position: center;
+  //   width: 15px;
+  //   height: 18px;
+  //   position: absolute;
+  //   right: 0;
+  //   top: 0;
+  // }
+  .btn-icon{
+    border: none;
+  }
+}
+
+input[type='checkbox'], input[type='radio']{
+  opacity: 0;
+  width: 0;
+  height: 0;
+  border: none;
+  position: absolute;
+  & + label {
+    font-size: inherit;
+    font-weight: 300;
+    font-family: $paragraph-font;
+    display: inline-block;
+    padding-left: calc(1em + 9px);
+    margin: 0.2em;
+    cursor: pointer;
+    padding-right: 5px;
+    vertical-align: text-top;
+    position: relative;
+    &:before {
+      content: '\2714';
+      line-height: 0.9;
+      border: 1px solid $primary;
+      border-radius: 0em;
+      margin-left: calc(-1em - 5px);
+      margin-top: 0.25em;
+      display: inline-block;
+      position: absolute;
+      width: 1em;
+      height: 1em;
+      color: transparent;
+    }
+  }
+  &:checked + label:before {
+    color: currentColor;
+    &:disabled + label:before {
+      color: $grey-dark;
+      background: $disabled;
+      border-color: $grey-dark;
+    }
+  }
+  &:disabled + label:before {
+    background: $disabled;
+    border-color: $grey-dark;
+  }
+  &:focus-visible + label:before {
+    box-shadow: 0 0 0 0.1rem $primary_a;
+  }
+  &.invalid + label {
+    box-shadow: 0px 5px 3px -2px $failure;
+  }
+}
+input[type='radio'] {
+  & + label {
+    &:before {
+      content: '';
+      border-radius: 50%;
+    }
+  }
+  &:checked + label:before {
+    background-color: $primary;
+  }
+  &:disabled + label:before {
+    background: $grey-dark;
+    border-color: $disabled;
+  }
+}
+.checkbox-tag {
+  font-size: $p;
+  input[type='checkbox'], input[type='radio'] {
+    & + label {
+      text-align: center;
+      color: $primary;
+      background-color: #fff;
+      font-family: $paragraph-font;
+      font-weight: bold;
+      padding: 4px 15px 5px 15px;
+      border: 1px solid $primary;
+      margin: 0;
+      min-width: 90px;
+      display: inline-block;
+      &:before {
+        display: none;
+      }
+      &:hover {
+        //color: #fff;
+        background-color: rgba($color: $primary, $alpha: 0.2);
+      }
+      @media (hover: none) and (pointer: coarse) {
+        &:hover {
+          color: $primary;
+          background-color: #fff;
+        }
+      }
+    }
+    &:checked + label{
+      color: #fff;
+      background-color: $primary;
+      &:hover {
+        //color: $primary;
+        background-color: rgba($color: $primary, $alpha: 0.85);
+      }
+      @media (hover: none) and (pointer: coarse) {
+        &:hover{
+          color: #fff;
+          background-color: $primary;
+        }
+      }
+      
+    }
+    
+    &:focus-visible + label {
+      box-shadow: 0 0 0 0.1rem $primary_a;
+    }
+  }
+}
+.checkbox-tag--group {
+  font-size: $p;
+  list-style: none;
+  margin: 0 -0.9em -0.9em 0;
+  &__label {
+    font-size: 1rem;
+    font-family: $title-font;
+    font-weight: 500;
+    vertical-align: sub;
+    vertical-align: -webkit-baseline-middle;
+    padding-right: 15px;
+  }
+  .checkbox-tag {
+    list-style: none;
+    input[type='checkbox'] + label, input[type='radio'] + label {
+      margin: 0 0.9em 0.9em 0;
+    }
+  }
+  &.text-xxs {
+    .checkbox-tag {
+      font-size: $p-xxs;
+      input[type='checkbox'] + label, input[type='radio'] + label {
+        min-width: 65px;
+      }
+    }
+  }
+  &.text-xs {
+    .checkbox-tag {
+      font-size: $p-xs;
+    }
+  }
+  &.text-s {
+    .checkbox-tag {
+      font-size: $p-sm;
+    }
+  }
+  &.text-lg {
+    .checkbox-tag {
+      font-size: $p-lg;
+    }
+  }
+}
+.checkbox-link {
+  list-style: none;
+  input[type='checkbox'], input[type='radio'] {
+    & + label {
+      color: $black;
+      line-height: 1.2;
+      padding-left: 7px;
+      border-left: 3px solid transparent;
+      margin: 5px 2px;
+      width: 100%;
+      h2, h3{
+        margin-bottom: 0;
+      }
+      &:before {
+        display: none;
+      }
+      &:hover {
+        color: $primary;
+      }
+      &.primary:hover, &.secondary:hover, &.tertiary:hover{
+        text-decoration: underline;
+      }
+    }
+    &:checked {
+      & + label {
+        color: $primary;
+        border-color: $primary;
+        &:after {
+          content: '';
+          width: 16px;
+          height: 16px;
+          // background-color: $primary;
+          background-image: url($cdn + 'x-icon-o.svg');
+          background-position: center;
+          background-repeat: no-repeat;
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        &.secondary{
+          border-color: $secondary;
+        }
+        &.tertiary{
+          border-color: $tertiary;
+        }
+      }
+    }
+    &:focus-visible + label {
+      color: $primary;
+      text-decoration: underline;
+      &.secondary{
+        border-color: $secondary;
+      }
+      &.tertiary{
+        border-color: $tertiary;
+      }
+    }
+  }
+}

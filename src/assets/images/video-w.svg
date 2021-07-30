@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="12" viewBox="0 0 18 12">
+  <g id="video" transform="translate(1 1)">
+    <path id="Path" d="M5,0,0,3.5,5,7V0Z" transform="translate(11 2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <rect id="Rectangle" width="11" height="10" rx="2" stroke-width="2" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/>
+  </g>
+</svg>

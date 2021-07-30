@@ -1,0 +1,125 @@
+.footer {
+  color: #fff;
+  width: 100%;
+  height: auto;
+  background-color: $black;
+  padding-top: 60px;
+  font-size: $p;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-flow: row nowrap;
+  margin-top: 50px;
+  .logo {
+    margin: 25px 0 50px 0;
+  }
+  @media (max-width: 991px) {
+    padding-top: 0;
+    // .tags__title {
+    //     display:none;
+    // }
+    // .tags {
+    //     display:none;
+    // }
+    .about__descola {
+      max-height: 10.5em;
+      overflow: hidden;
+      display: block;
+      display: -webkit-box;
+      max-width: 100%;
+      -webkit-line-clamp: 5;
+      -webkit-box-orient: vertical;
+      text-overflow: ellipsis;
+    }
+
+    h3 {
+      margin-top: 25px;
+    }
+    .row {
+      *:nth-child(3),
+      *:nth-child(2) {
+        order: 1;
+      }
+    }
+    .logo {
+      margin: 10px 0 0 ;
+    }
+    
+  }
+
+  @media (max-width: 1025px) {
+  }
+  h3 {
+    font-size: $h3;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  p {
+    margin-bottom: 15px;
+  }
+  nav {
+    ul {
+      list-style: none;
+      li {
+        a {
+          color: #fff;
+          &:hover {
+            color: $primary;
+            text-decoration: none;
+          }
+        }
+        @media (max-width: 991px) {
+          width: 160px;
+          display: inline-block;
+        }
+      }
+    }
+  }
+  &__card {
+    padding: 18px 0;
+    border-bottom: 1px solid $primary;
+    display: flex;
+    h4 {
+      color: $primary;
+    }
+    p {
+      color: #fff;
+      font-size: $p-sm;
+      margin-bottom: 0;
+      height: 38px;
+      overflow: hidden;
+    }
+    &__img {
+      width: 76px;
+      // height: 65px;
+      margin-right: 8px;
+    }
+    &__content {
+      width: calc(100% - 84px);
+    }
+    &:first-of-type {
+      padding-top: 0;
+    }
+  }
+}
+
+.contato__telefone {
+  .headset__icon {
+    margin-right: 10px;
+  }
+  color: #fff;
+  margin-bottom: 40px;
+  a {
+    color: #fff;
+    text-transform: none;
+    font-size: $p;
+  }
+}
+
+.redes__sociais {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  .btn-icon {
+    margin-right: 10px;
+  }
+}

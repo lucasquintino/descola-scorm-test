@@ -1,0 +1,22 @@
+.Toastify__toast{
+    padding-left: 16px;
+    &--default{
+        color: #fff;
+        background-color: $primary;
+    }
+    &--error {
+        background-color: $failure;
+    }
+    &--success {
+        background-color: $success;
+    }
+    &--info {
+        background-color: $info;
+    }
+    &--warning {
+        background-color: $tertiary;
+    }
+    &--dark {
+        background-color: $black2;
+    }
+}
